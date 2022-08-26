@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 1.4rem;/*Pour rendre 1rem = 10 pixels*/
+}
+
+.question {
+    display: flex; /*permet de positionner <p> et <i>*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #777;
+}
+
+.reponse {
+    color: #777;
+    background-color: #eee;
+    padding: 3rem;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
